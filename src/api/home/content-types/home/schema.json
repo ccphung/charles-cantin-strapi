@@ -12,9 +12,10 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string",
-      "required": true,
-      "default": "Charles Cantin - Photographe"
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
     },
     "background": {
       "allowedTypes": [
@@ -24,8 +25,17 @@
         "audios"
       ],
       "type": "media",
-      "multiple": false,
-      "required": false
+      "multiple": false
+    },
+    "socials": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

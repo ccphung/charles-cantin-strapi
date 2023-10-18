@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navigations",
+  "info": {
+    "singularName": "navigation",
+    "pluralName": "navigations",
+    "displayName": "Navigation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "menu1": {
+      "type": "string"
+    },
+    "menu2": {
+      "type": "string"
+    },
+    "menu3": {
+      "type": "string"
+    },
+    "menu4": {
+      "type": "string"
+    }
+  }
+}
