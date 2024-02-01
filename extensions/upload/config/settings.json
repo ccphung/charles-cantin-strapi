@@ -1,0 +1,11 @@
+{
+    "provider": "aws-s3",
+    "providerOptions": {
+        "accessKeyId": "AKIA4MTWLLLCKO2ABTLX",
+        "secreatAccessKey": "OaarQbdaGpa8W7PPkEKkx65dAPsZJVG4dfKz3t+u",
+        "region": "eu-west-3",
+        "params": {
+            "Bucket": "charlescantin"
+        }
+    }
+}
